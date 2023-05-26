@@ -20,20 +20,7 @@ m = 50e2;n = m; prob = 2;  % Optimal transport
 
 % [c,r,l,p,q,gama] = prob_set(m,n,prob);
 
-% load('./InputData/data1-5000.mat');
-% save('./InputData/data1-cap-1000.mat','p','q','r','l','m','n','c','gama')
-% save('./InputData/data1-5000.mat','p','q','r','l','m','n','c','gama')
-
-
-load('./InputData/apd_class1_l2_apd.mat');
-APDtype=4;
-
-m=apd_data(APDtype,1); n=m;
-q = ones(n,1); p = ones(m,1);
-Gama = + inf(m,n);gama = Gama(:);
-c=cost_data{APDtype};
-l=l_data{APDtype};
-r=r_data{APDtype};
+load('./InputData/data1-1000.mat');
 
 
 
