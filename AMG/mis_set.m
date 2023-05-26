@@ -1,6 +1,8 @@
 function [isC,isF,As] = mis_set(A,theta)
 % Finding the (approximated) maximal independent set by a multilevel type
-% algorithm. This is from the ifem toolbox of Long Chen.
+% algorithm. This is from the free iFEM toolbox of Long Chen:
+%        L. Chen. iFEM: an innovative finite element method package 
+%                       in MATLAB. Preprint, 2008.
 
 %% Parameters
 if ~exist('theta','var'), theta = 0.025; end
