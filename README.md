@@ -7,6 +7,6 @@ To solve the discrete OT problem, run APD_SsN_Class1.m in file Class1. For the p
 
 This algorithm has not been optimized, and is only intended for communication and reference purposes. The program has been ensured to run properly in the MATLAB environment, and the input data can be modified as needed for the problem.
 
-This algorithm is developed by Jun Hu, Hao Luo and Zihang Zhang. For any questions, please feel free to contact us by luohao@math.pku.edu.cn or zhang-zihang@pku.edu.cn. 
+The algorithm is developed by Jun Hu, Hao Luo and Zihang Zhang. For any questions, please feel free to contact us by luohao@math.pku.edu.cn or zhang-zihang@pku.edu.cn. 
 
 Copyright (C) 2023 by Jun Hu, Hao Luo and Zihang Zhang.
