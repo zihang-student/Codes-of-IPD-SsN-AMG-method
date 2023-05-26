@@ -1,4 +1,6 @@
 function [blocks,sizes,p,r] = components(A)
+% A minor revised version based on the built-in function:
+
 % COMPONENTS : Connected or strongly connected components of a graph.
 %
 % blocks = components(A);

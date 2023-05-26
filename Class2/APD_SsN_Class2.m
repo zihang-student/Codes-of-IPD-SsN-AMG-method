@@ -7,7 +7,7 @@
 %      [   1mn'    ]        [ O ]        [ O ]        [ mu]
 % with mu in (0, min(<r,1n>, <l,1m>)].
 
-addpath '..';
+addpath '..'; 
 addpath '../AMG';
 %% 0. Problem Setting
 % m = 5e2;n = m;
